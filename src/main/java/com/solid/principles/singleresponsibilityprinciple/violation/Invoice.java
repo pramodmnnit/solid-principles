@@ -6,7 +6,7 @@ import com.solid.principles.singleresponsibilityprinciple.Book;
  * This is invoice class which stores logic to calculate price This class violates the single
  * responsibility principle at 2 places in this class. 1. print logic should not be here because
  * this class is responsible only for invoice 2. save to file should not be here because it violates
- * the SIP we will create 2 classes one for print invoice and another for save to file
+ * the SRP we will create 2 classes one for print invoice and another for save to file
  */
 public class Invoice {
   private Book book;

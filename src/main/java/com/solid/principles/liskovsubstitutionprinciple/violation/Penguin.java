@@ -7,11 +7,6 @@ package com.solid.principles.liskovsubstitutionprinciple.violation;
 public class Penguin extends Bird {
 
   @Override
-  public void eat() {
-    System.out.println("Penguin bird can eat");
-  }
-
-  @Override
   public void fly() {
     throw new RuntimeException("Penguin can't fly");
   }

@@ -6,11 +6,6 @@ package com.solid.principles.liskovsubstitutionprinciple.violation;
  * classes one for birds which fly and another for eat
  */
 public class Bird {
-
-  public void eat() {
-    System.out.println("I can eat");
-  }
-
   public void fly() {
     System.out.println("I can fly");
   }

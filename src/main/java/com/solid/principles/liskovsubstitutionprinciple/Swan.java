@@ -3,12 +3,7 @@ package com.solid.principles.liskovsubstitutionprinciple;
 public class Swan extends FlyingBird {
 
   @Override
-  public void eat() {
-    System.out.println("Swan bird can eat");
-  }
-
-  @Override
-  public void fly() {
+  public void move() {
     System.out.println("Swan bird can fly");
   }
 }

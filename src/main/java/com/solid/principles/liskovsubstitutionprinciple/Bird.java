@@ -1,8 +1,6 @@
 package com.solid.principles.liskovsubstitutionprinciple;
 
-public class Bird {
+public abstract class Bird {
 
-  public void eat() {
-    System.out.println("I can eat");
-  }
+  public abstract void move();
 }
